@@ -4,6 +4,12 @@
     height: 10%;
 }
 
+.imgNav {
+    width: 5rem;
+    height: auto;
+    margin: .5rem;
+}
+
 @media (min-width:400px) {
     .my-navbar {
         width: 100%;
