@@ -1,6 +1,23 @@
 .mainContainer {
-    background-color: pink;
+    border-style: solid;
     margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 3rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-style: solid;
+    margin: 3rem;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+
+}
+
+.cardImg{
+    padding: 1rem;
+
 }
