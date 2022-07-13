@@ -7,13 +7,16 @@
     margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 3rem;
+    
 }
 
 .mainContainerText{
     margin: 1%;
     padding: 2%;
-    color: white;
-    background-color: #7CA653;
+    color: black;
+    background-image: url("src/assets/images/cemetery_pic.jpg");
+    background-size: cover;
+    /* background-color: #7CA653; */
 }
 
 .cardMainContainer{
@@ -40,4 +43,9 @@
 .cardImg{
     padding: 1rem;
     justify-content: center;
+}
+
+.mainContainerImg1{
+    max-width: 900px;
+    text-align: center;
 }
