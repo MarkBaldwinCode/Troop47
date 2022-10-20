@@ -1,3 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "~bootstrap/dist/css/bootstrap.css";
+
+@media only screen and (max-width: 900px) {
+    .mainContainer, .cardMainContainer{
+     flex-direction: column;
+     margin-top: 10px;
+     margin-bottom: 10px;
+     align-items: center;
+    }
+
+    .mainContainerImg{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: auto;
+        margin-top: 25px;
+    }
+
+    .mainContainerText {
+        background: white;
+        margin-bottom: 50px;
+    }
+ }
