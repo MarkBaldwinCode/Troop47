@@ -7,11 +7,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutComponent } from './about/about.component';
+import { HonorVetFundComponent } from './honor-vet-fund/honor-vet-fund.component';
 
 
 const appRoutes: Routes =[
   {path: '', component: HomepageComponent},
   {path: "about", component:AboutComponent}, 
+  {path: "honor_vet_fund", component:HonorVetFundComponent}, 
   ]
 
 @NgModule({
@@ -19,7 +21,8 @@ const appRoutes: Routes =[
     AppComponent,
     NavbarComponent,
     HomepageComponent,
-    AboutComponent
+    AboutComponent,
+    HonorVetFundComponent
   ],
   imports: [
     BrowserModule,

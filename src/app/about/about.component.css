@@ -52,3 +52,56 @@ img{
     
 }
 
+@media screen and (max-width: 900px){
+    .mainContainer {
+        display: flex;
+        justify-content: center;
+        gap: 5%;
+        flex-direction: column;
+        padding: 1rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        margin-top: 3rem;
+        
+    }
+    
+    .mainContainerText{
+        max-width: 100%;
+    }
+    
+    .mainContainerImg{
+        display: flex;
+        flex-grow: 2;
+        max-width: 100%;
+        padding: 1rem;
+        /* background-color: pink; */
+    }
+    .secondContainer{
+        display: flex;
+        gap: 5%;
+        flex-direction: column;
+        margin: 3rem;
+        padding: 1rem;
+    }
+    
+    .secondContainerText{
+        max-width: 100%;
+        padding: 1rem;
+    }
+    .secondContainerImg{
+        max-width: 100%;
+        object-fit: cover;
+        padding: 1rem;
+        
+        /* background-color: pink; */
+    }
+    
+    img{
+        max-width: 100%;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}
+
