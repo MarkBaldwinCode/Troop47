@@ -1,0 +1,15 @@
+.mainContainer{
+    max-width: 98%;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+}
+
+.mainContainer img{
+    max-width: 55%;
+    align-items: center;
+}
+
+.paraPostImg{
+    padding-top: 2%;
+}
