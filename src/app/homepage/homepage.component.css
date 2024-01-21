@@ -3,7 +3,6 @@
     justify-content: center;
     gap: 5%;
     flex-direction: row;
-    /* border-style: solid; */
     margin-left: 3rem;
     margin-right: 3rem;
     margin-top: 3rem;
@@ -16,7 +15,6 @@
     color: black;
     background-image: url("src/assets/images/cemetery_pic.jpg");
     background-size: cover;
-    /* background-color: #7CA653; */
 }
 
 .cardMainContainer{
@@ -64,27 +62,32 @@
 @media screen and (max-width: 1100px) {
     .mainContainer {
         display: flex;
+        min-height: 300px;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
         gap: 5%;
     }
     
     .mainContainerText{
-        width: fit-content;
+        justify-content: center;
         margin: 1%;
         padding: 2%;
         color: white;
-        background-image: url("src/assets/images/cemetery_pic.jpg");
-        background-size: cover;
+        /* background-image: url("src/assets/images/cemetery_pic.jpg"); */
+        /* background-size: cover; */
     }
 
-    .mainContainerImg1 {
-        max-width: 400px;
+    .mainContainerImg {
+        display: flex;
+        max-width: 90%;
+        justify-content: center;
         text-align: center;
         object-fit: contain;
     }
 
     .mainContainerImg img{
+        display: flex;
+        justify-content: center;
         max-width: 100%;
     }
     
@@ -92,6 +95,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
         gap: 5%;
         margin: 3rem;
     }
