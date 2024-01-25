@@ -8,12 +8,14 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutComponent } from './about/about.component';
 import { HonorVetFundComponent } from './honor-vet-fund/honor-vet-fund.component';
+import { ScoutmasterMinuteComponent } from './scoutmaster-minute/scoutmaster-minute.component';
 
 
 const appRoutes: Routes =[
   {path: '', component: HomepageComponent},
   {path: "about", component:AboutComponent}, 
   {path: "honor_vet_fund", component:HonorVetFundComponent}, 
+  {path: "scoutmaster_minute", component:ScoutmasterMinuteComponent}
   ]
 
 @NgModule({
@@ -22,7 +24,8 @@ const appRoutes: Routes =[
     NavbarComponent,
     HomepageComponent,
     AboutComponent,
-    HonorVetFundComponent
+    HonorVetFundComponent,
+    ScoutmasterMinuteComponent
   ],
   imports: [
     BrowserModule,

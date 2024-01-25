@@ -73,6 +73,7 @@
         margin: 1%;
         padding: 2%;
         color: white;
+        min-height: 400px;
         /* background-image: url("src/assets/images/cemetery_pic.jpg"); */
         /* background-size: cover; */
     }
@@ -80,6 +81,7 @@
     .mainContainerImg {
         display: flex;
         max-width: 90%;
+        margin-top: 3%;
         justify-content: center;
         text-align: center;
         object-fit: contain;

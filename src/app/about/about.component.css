@@ -5,9 +5,9 @@
     flex-direction: row;
     /* border-style: solid; */
     padding: 1rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-top: 3rem;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
     /* background-color: blue; */
     
 }
@@ -27,7 +27,8 @@
     display: flex;
     gap: 5%;
     flex-direction: row;
-    margin: 3rem;
+    margin-left: 3%;
+    margin-right: 3%;
     padding: 1rem;
     /* background-color: blue; */
 }
@@ -59,14 +60,17 @@ img{
         gap: 5%;
         flex-direction: column;
         padding: 1rem;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        margin-top: 3rem;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 3%;
         
     }
     
     .mainContainerText{
         max-width: 100%;
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-top: 3%;
     }
     
     .mainContainerImg{
@@ -80,7 +84,8 @@ img{
         display: flex;
         gap: 5%;
         flex-direction: column;
-        margin: 3rem;
+        margin-left: 3%;
+        margin-right: 3%;
         padding: 1rem;
     }
     
@@ -92,8 +97,6 @@ img{
         max-width: 100%;
         object-fit: cover;
         padding: 1rem;
-        
-        /* background-color: pink; */
     }
     
     img{
