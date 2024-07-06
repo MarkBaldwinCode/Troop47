@@ -9,13 +9,15 @@ import { HomepageComponent } from './homepage/homepage.component';
 import { AboutComponent } from './about/about.component';
 import { HonorVetFundComponent } from './honor-vet-fund/honor-vet-fund.component';
 import { ScoutmasterMinuteComponent } from './scoutmaster-minute/scoutmaster-minute.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 
 const appRoutes: Routes =[
   {path: '', component: HomepageComponent},
   {path: "about", component:AboutComponent}, 
   {path: "honor_vet_fund", component:HonorVetFundComponent}, 
-  {path: "scoutmaster_minute", component:ScoutmasterMinuteComponent}
+  {path: "scoutmaster_minute", component:ScoutmasterMinuteComponent},
+  {path: "login", component: LoginPageComponent}
   ]
 
 @NgModule({
@@ -25,7 +27,8 @@ const appRoutes: Routes =[
     HomepageComponent,
     AboutComponent,
     HonorVetFundComponent,
-    ScoutmasterMinuteComponent
+    ScoutmasterMinuteComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,

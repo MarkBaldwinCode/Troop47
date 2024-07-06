@@ -9,22 +9,21 @@
 
         <div class="collapse navbar-collapse" id="navbarColor01">
             <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home
-              <span class="visually-hidden">(current)</span>
-            </a>
+                <li class="nav-item" >
+                    <a class="nav-link" routerLink="/" [ngClass]="{ 'active': isHomeRoute() }">Home</a>
+                    
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" routerLink="/about" routerLinkActive="active">About Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/honor_vet_fund">Honor A Veteran Program</a>
+                    <a class="nav-link" routerLink="/honor_vet_fund" routerLinkActive="active">Honor A Veteran Program</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="scoutmaster_minute">Scout Master Message</a>
+                    <a class="nav-link" routerLink="/scoutmaster_minute" routerLinkActive="active">Scout Master Message</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Login</a>
+                    <a class="nav-link" routerLink="/login" routerLinkActive="active">Login</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Links</a>
