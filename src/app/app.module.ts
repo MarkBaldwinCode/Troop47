@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { HonorVetFundComponent } from './honor-vet-fund/honor-vet-fund.component';
 import { ScoutmasterMinuteComponent } from './scoutmaster-minute/scoutmaster-minute.component';
 import { LoginPageComponent } from './login-page/login-page.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const appRoutes: Routes =[
@@ -28,7 +29,8 @@ const appRoutes: Routes =[
     AboutComponent,
     HonorVetFundComponent,
     ScoutmasterMinuteComponent,
-    LoginPageComponent
+    LoginPageComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
